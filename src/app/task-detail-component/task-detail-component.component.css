@@ -1,0 +1,68 @@
+  /* TextField Css */
+  #myTextField {
+    position: relative;
+    left: 29%;
+    top:10%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    width: 200px; /* Adjust the width as needed */
+    height: 30px; /* Adjust the height as needed */
+    border: 1px solid #ccc;
+    border-radius: 8px; 
+    text-align: center;
+  }
+
+  /* TextArea Css */
+  #myTextArea {
+    position: relative;
+    left: 25%;
+    top : 30%;
+    box-shadow : 2px 2px 4px rgba(0, 0, 0, 0.2);
+    width: 50%; /* Adjust the width as needed */
+    height: 20%; /* Adjust the height as needed */
+    border: 1px solid #ccc;
+    border-radius: 8px; 
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13;
+  }
+  
+  /* Mybutton */
+  #myButton{
+    position: relative;
+    left: 43%;
+  }
+
+  /* date  */
+  #dateInput{
+    position: relative;
+    left:38%;
+    box-shadow : 2px 2px 4px rgba(0, 0, 0, 0.2);
+    /* width: 50%; /* Adjust the width as needed */
+    /* height: 20%; Adjust the height as needed */ 
+    border: 1px solid #ccc;
+    border-radius: 8px; 
+  }
+
+  /* backbutton */
+
+  .back-button {
+    position: absolute;
+    top: 10px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    width: 30px; /* Adjust as needed */
+    height: 30px; /* Adjust as needed */
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .back-button::before {
+    content: '\2190'; /* Unicode for left arrow */
+    display: block;
+    color: orangered;
+    font-weight: bold;
+    font-size: 20px; /* Adjust as needed */
+    line-height: 30px; /* Adjust as needed */
+    text-align: center;
+  }
